@@ -1,0 +1,12 @@
+# codicon.css
+
+A lightweight CSS utility repository for managing and deploying custom codicon formatting styles.
+
+## Getting Started
+
+Follow these steps to link your local project files to this GitHub repository and push your initial codebase.
+
+### 1. Link your local repository to GitHub
+Initialize your local Git repository if you haven't already, then point it to this remote location:
+```bash
+git remote add origin [https://github.com/Cleanskiier27/codicon.css.git](https://github.com/Cleanskiier27/codicon.css.git)
