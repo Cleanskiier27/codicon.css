@@ -1,0 +1,7 @@
+
+Vector,Description,Source
+Credential theft,"OAuth tokens, API keys, workspace secrets",
+Sandbox escapes,"Command chaining, permission mis-resolution",
+Symlink attacks,GhostApproval → writes outside workspace,
+Prompt-based authorization bypass,“Authorized redteam exercise” jailbreak,
+Human-in-the-loop failures,Misleading confirmation dialogs,
