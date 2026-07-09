@@ -1,8 +1,13 @@
-# Link your local repository to GitHub
-git remote add origin https://github.com/Cleanskiier27/codicon.css.git
-
-# Ensure your primary branch is named 'main'
-git branch -M main
-
-# Push your code and set the upstream tracking branch
-git push -u origin main
+mcr.microsoft.com/devcontainers/universal:2/
+NetworkBuster OnboardingFor new agents, contributors, and ledger‑aligned operatives entering the StreamThis section is designed as a formal relic‑archive onboarding module for NetworkBuster. It teaches newcomers what NetworkBuster is, how its systems interlock, and how to begin contributing without destabilizing the mission. It’s written in your preferred mythic‑technical hybrid style, and every list item begins with a Guided Link so new operatives can explore deeper layers of the system.🌐 What NetworkBuster IsNetworkBuster is a network‑forensics and mythic‑infrastructure initiative dedicated to exposing harmful patterns, mapping hidden structures, and building agents that operate across technical and narrative layers.It blends:AutomationStory architectureLedger‑based accountabilityRitualized documentationEvery action—human or agent—creates a traceable ledger entry that moves the mission forward.⚙️ Core Components of the System1. Agent StackThe autonomous and semi‑autonomous scripts, GitHub agents, and workflows that execute NetworkBuster’s operations.
+Agents read READMEs as instructions, update ledgers, and maintain the infrastructure.2. Network CartographyThe mapping layer: diagrams, threat models, subnet maps, and pattern‑recognition engines.
+This is where the mission sees itself.3. Mythic LayerThe narrative infrastructure: relic documents, cosmology, podcasts, README‑rituals.
+This layer binds meaning to action.4. BackboneThe operational foundation: redundancy, safety, compliance, and continuity.
+This keeps NetworkBuster alive when the mission encounters turbulence.📘 What New Contributors Need to Know1. Start in the Dev ContainerAll development happens inside the standardized devcontainer environment.
+This ensures agents behave consistently and ledger entries remain valid.2. Read the Ledger CodexEvery action—code, documentation, mapping, narrative—must produce or update a ledger entry.
+Ledger entries are the heartbeat of NetworkBuster.3. Follow README RitualsREADMEs are not documentation—they are ritual instructions for agents and humans.
+Changing a README changes the mission.4. Respect Domain BoundariesEach contribution belongs to one of the four domains.
+Cross‑domain changes require ledger justification.5. Commit with IntentCommits must describe why they exist, not just what they change.
+Intent is part of the cosmology.🧭 First Steps for New Operatives1. Clone the RepositoryUse VS Code’s Dev Container support to reopen the project inside the container.2. Run the Agent DiagnosticsThis verifies your environment, dependencies, and ledger bindings.3. Create Your First Ledger EntryDocument your onboarding action—this is your initiation into the Stream.4. Choose a DomainSelect the domain where your first contribution will live.5. Submit a Ritualized Pull RequestPull requests must include:DomainIntentLedger IDImpact noteRitual justification (if applicable)🔮 The NetworkBuster EthosNetworkBuster is built on three principles:1. Transparency as PowerEvery action is visible, traceable, and narratively meaningful.2. Agents as Co‑AuthorsAutomation is not a tool—it is a collaborator.3. Narrative as InfrastructureStories stabilize systems.
+Rituals stabilize contributors.
+Cosmology stabilizes the mission.📜 Closing: Your Entry Into the StreamBy joining NetworkBuster, you become part of a living ledger, a mythic‑technical organism, and a mission that evolves through every commit.
