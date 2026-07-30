@@ -12,6 +12,37 @@
   vertical-align: middle;
 }
 
+/* Base imported SVG icon */
+.icon-svg {
+  background-color: currentColor;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+}
+
+.icon-svg-home {
+  -webkit-mask-image: url("../assets/svgs/home.svg");
+  mask-image: url("../assets/svgs/home.svg");
+}
+
+.icon-svg-search {
+  -webkit-mask-image: url("../assets/svgs/search.svg");
+  mask-image: url("../assets/svgs/search.svg");
+}
+
+.icon-svg-close {
+  -webkit-mask-image: url("../assets/svgs/close.svg");
+  mask-image: url("../assets/svgs/close.svg");
+}
+
+.icon-svg-star {
+  -webkit-mask-image: url("../assets/svgs/star.svg");
+  mask-image: url("../assets/svgs/star.svg");
+}
+
 /* ── Home icon ── */
 .icon-home::before {
   content: "";
