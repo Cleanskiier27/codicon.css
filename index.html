@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>codicon.css — Icon Demo</title>
   <link rel="stylesheet" href="css/icons.css" />
+  <link rel="stylesheet" href="css/svg.css" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -41,27 +42,6 @@
     }
     .icon-card span.label { font-size: 0.75rem; color: #8b949e; }
     .icon { color: #58a6ff; }
-
-    /* ── 2. SVG Icons ── */
-    .svg-grid {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 24px;
-    }
-    .svg-card {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 8px;
-      background: #161b22;
-      border: 1px solid #21262d;
-      border-radius: 8px;
-      padding: 16px 20px;
-      min-width: 80px;
-    }
-    .svg-card svg { color: #3fb950; fill: currentColor; }
-    .svg-card svg[stroke="currentColor"] { fill: none; stroke: currentColor; color: #3fb950; }
-    .svg-card .label { font-size: 0.75rem; color: #8b949e; }
 
     /* ── 3. Placeholder Images ── */
     .placeholder-grid {
@@ -168,19 +148,19 @@
     <h2>2 · SVG Icons</h2>
     <div class="svg-grid">
       <div class="svg-card">
-        <img src="assets/svgs/home.svg" width="24" height="24" alt="home icon" style="filter: invert(67%) sepia(56%) saturate(500%) hue-rotate(183deg);" />
+        <img class="svg-icon" src="assets/svgs/home.svg" alt="home icon" />
         <span class="label">home.svg</span>
       </div>
       <div class="svg-card">
-        <img src="assets/svgs/search.svg" width="24" height="24" alt="search icon" style="filter: invert(67%) sepia(56%) saturate(500%) hue-rotate(183deg);" />
+        <img class="svg-icon" src="assets/svgs/search.svg" alt="search icon" />
         <span class="label">search.svg</span>
       </div>
       <div class="svg-card">
-        <img src="assets/svgs/close.svg" width="24" height="24" alt="close icon" style="filter: invert(67%) sepia(56%) saturate(500%) hue-rotate(183deg);" />
+        <img class="svg-icon" src="assets/svgs/close.svg" alt="close icon" />
         <span class="label">close.svg</span>
       </div>
       <div class="svg-card">
-        <img src="assets/svgs/star.svg" width="24" height="24" alt="star icon" style="filter: invert(67%) sepia(56%) saturate(500%) hue-rotate(183deg);" />
+        <img class="svg-icon" src="assets/svgs/star.svg" alt="star icon" />
         <span class="label">star.svg</span>
       </div>
     </div>
