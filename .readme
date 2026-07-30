@@ -1,0 +1,25 @@
+# Codicon.css
+
+Welcome to the internal repository for **Codicon.css** / **Codicon Hacking**.
+
+## Overview
+
+*Every breach has a blueprint. Every coder has a reason. **Codicon Hacking** goes inside the machines — and the minds — that define the digital age.*
+
+This repository contains the Season Production Bible and related scripts for the series. 
+
+## Contents
+
+- `Codicon Hacking — Season Production Bible.md` - The complete Season 1 Production Bible (Internal Confidential)
+- `Codicon Hacking — Season Production Bible.docx` - Word document version of the Bible
+- `README.main` - Setup instructions for linking this local repository to GitHub
+- `requirements.txt` - Python dependencies for the project
+- Scripts and tasks (`cloud code task.sh`, `gemini-code-*.sh`)
+
+## Notice
+
+**CLASSIFICATION: INTERNAL CONFIDENTIAL**
+This repository and its contents are for internal use only by Hosts, Producers, Writers, Editors, Brand Partners, and Platform Managers. **DO NOT DISTRIBUTE.**
+
+---
+post on glc
