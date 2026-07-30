@@ -1,0 +1,6 @@
+diff --git a/OneDrive/my documentary/.venv/Lib/site-packages/pip/_vendor/rich/logging.py b/OneDrive/my documentary/.venv/Lib/site-packages/pip/_vendor/rich/logging.py
+--- a/OneDrive/my documentary/.venv/Lib/site-packages/pip/_vendor/rich/logging.py
++++ b/OneDrive/my documentary/.venv/Lib/site-packages/pip/_vendor/rich/logging.py
+@@
+-    log.info("Listening on http://127.0.0.1:8080")
++    log.info("Listening on http://127.0.0.1:8080 server ready")
