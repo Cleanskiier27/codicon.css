@@ -1,0 +1,132 @@
+/* ============================================================
+   codicon.css — Pure-CSS Icon Shapes
+   Usage: <span class="icon icon-home"></span>
+   ============================================================ */
+
+/* Base icon */
+.icon {
+  display: inline-block;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+
+/* ── Home icon ── */
+.icon-home::before {
+  content: "";
+  position: absolute;
+  left: 4px;
+  top: 10px;
+  width: 16px;
+  height: 12px;
+  background: currentColor;
+  clip-path: polygon(0 100%, 0 40%, 50% 0, 100% 40%, 100% 100%);
+}
+
+/* ── Search / Magnifier icon ── */
+.icon-search::before {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  width: 14px;
+  height: 14px;
+  border: 2.5px solid currentColor;
+  border-radius: 50%;
+}
+.icon-search::after {
+  content: "";
+  position: absolute;
+  left: 14px;
+  top: 14px;
+  width: 2.5px;
+  height: 9px;
+  background: currentColor;
+  transform: rotate(45deg);
+  transform-origin: top center;
+  border-radius: 1px;
+}
+
+/* ── Close (×) icon ── */
+.icon-close::before,
+.icon-close::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 3px;
+  width: 18px;
+  height: 2.5px;
+  background: currentColor;
+  border-radius: 1px;
+}
+.icon-close::before { transform: translateY(-50%) rotate(45deg); }
+.icon-close::after  { transform: translateY(-50%) rotate(-45deg); }
+
+/* ── Chevron Down ── */
+.icon-chevron-down::before {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 7px;
+  width: 10px;
+  height: 10px;
+  border-right: 2.5px solid currentColor;
+  border-bottom: 2.5px solid currentColor;
+  transform: rotate(45deg);
+}
+
+/* ── Chevron Right ── */
+.icon-chevron-right::before {
+  content: "";
+  position: absolute;
+  left: 7px;
+  top: 5px;
+  width: 10px;
+  height: 10px;
+  border-right: 2.5px solid currentColor;
+  border-bottom: 2.5px solid currentColor;
+  transform: rotate(-45deg);
+}
+
+/* ── Star icon ── */
+.icon-star::before {
+  content: "★";
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  line-height: 1;
+  color: currentColor;
+}
+
+/* ── Bell icon ── */
+.icon-bell::before {
+  content: "";
+  position: absolute;
+  left: 4px;
+  top: 2px;
+  width: 16px;
+  height: 14px;
+  border: 2.5px solid currentColor;
+  border-radius: 8px 8px 0 0;
+  background: transparent;
+}
+.icon-bell::after {
+  content: "";
+  position: absolute;
+  left: 9px;
+  bottom: 1px;
+  width: 6px;
+  height: 3px;
+  border: 2px solid currentColor;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+}
+
+/* ── Size variants ── */
+.icon-sm { width: 16px; height: 16px; }
+.icon-lg { width: 32px; height: 32px; }
+.icon-xl { width: 48px; height: 48px; }
