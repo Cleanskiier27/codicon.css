@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>codicon.css — Icon Demo</title>
+  <link rel="stylesheet" href="css/icons.css" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: system-ui, sans-serif;
+      background: #0d1117;
+      color: #e6edf3;
+      padding: 40px 24px;
+      line-height: 1.6;
+    }
+
+    h1 { font-size: 2rem; margin-bottom: 8px; color: #58a6ff; }
+    h2 { font-size: 1.2rem; color: #8b949e; margin: 40px 0 16px; border-bottom: 1px solid #21262d; padding-bottom: 8px; }
+
+    .section { margin-bottom: 48px; }
+
+    /* ── 1. CSS Icon Sprites ── */
+    .icon-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      align-items: flex-start;
+    }
+    .icon-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      background: #161b22;
+      border: 1px solid #21262d;
+      border-radius: 8px;
+      padding: 16px 20px;
+      min-width: 80px;
+    }
+    .icon-card span.label { font-size: 0.75rem; color: #8b949e; }
+    .icon { color: #58a6ff; }
+
+    /* ── 2. SVG Icons ── */
+    .svg-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+    }
+    .svg-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      background: #161b22;
+      border: 1px solid #21262d;
+      border-radius: 8px;
+      padding: 16px 20px;
+      min-width: 80px;
+    }
+    .svg-card svg { color: #3fb950; fill: currentColor; }
+    .svg-card svg[stroke="currentColor"] { fill: none; stroke: currentColor; color: #3fb950; }
+    .svg-card .label { font-size: 0.75rem; color: #8b949e; }
+
+    /* ── 3. Placeholder Images ── */
+    .placeholder-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .placeholder {
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid #21262d;
+      display: flex;
+      flex-direction: column;
+    }
+    .placeholder-img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.85rem;
+      color: #8b949e;
+      background: #161b22;
+      font-family: monospace;
+    }
+    .placeholder-img.sm  { width: 120px; height: 80px; }
+    .placeholder-img.md  { width: 240px; height: 160px; }
+    .placeholder-img.lg  { width: 320px; height: 200px; }
+    .placeholder-img.avatar { width: 64px; height: 64px; border-radius: 50%; }
+
+    .placeholder-caption {
+      padding: 6px 10px;
+      font-size: 0.75rem;
+      color: #8b949e;
+      background: #0d1117;
+    }
+
+    .placeholder-img.avatar-wrap {
+      background: #21262d;
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.7rem;
+      color: #8b949e;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>codicon.css</h1>
+  <p style="color:#8b949e;">Icon demo — pure-CSS icons, SVG icons, and placeholder images.</p>
+
+  <!-- 1. Pure-CSS Icons -->
+  <div class="section">
+    <h2>1 · Pure-CSS Icon Shapes</h2>
+    <div class="icon-grid">
+      <div class="icon-card">
+        <span class="icon icon-home"></span>
+        <span class="label">home</span>
+      </div>
+      <div class="icon-card">
+        <span class="icon icon-search"></span>
+        <span class="label">search</span>
+      </div>
+      <div class="icon-card">
+        <span class="icon icon-close"></span>
+        <span class="label">close</span>
+      </div>
+      <div class="icon-card">
+        <span class="icon icon-chevron-down"></span>
+        <span class="label">chevron-down</span>
+      </div>
+      <div class="icon-card">
+        <span class="icon icon-chevron-right"></span>
+        <span class="label">chevron-right</span>
+      </div>
+      <div class="icon-card">
+        <span class="icon icon-star"></span>
+        <span class="label">star</span>
+      </div>
+      <div class="icon-card">
+        <span class="icon icon-bell"></span>
+        <span class="label">bell</span>
+      </div>
+      <!-- Size variants -->
+      <div class="icon-card">
+        <span class="icon icon-home icon-sm"></span>
+        <span class="label">sm (16px)</span>
+      </div>
+      <div class="icon-card">
+        <span class="icon icon-home icon-lg"></span>
+        <span class="label">lg (32px)</span>
+      </div>
+      <div class="icon-card">
+        <span class="icon icon-home icon-xl"></span>
+        <span class="label">xl (48px)</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. SVG Icons -->
+  <div class="section">
+    <h2>2 · SVG Icons</h2>
+    <div class="svg-grid">
+      <div class="svg-card">
+        <img src="assets/svgs/home.svg" width="24" height="24" alt="home icon" style="filter: invert(67%) sepia(56%) saturate(500%) hue-rotate(183deg);" />
+        <span class="label">home.svg</span>
+      </div>
+      <div class="svg-card">
+        <img src="assets/svgs/search.svg" width="24" height="24" alt="search icon" style="filter: invert(67%) sepia(56%) saturate(500%) hue-rotate(183deg);" />
+        <span class="label">search.svg</span>
+      </div>
+      <div class="svg-card">
+        <img src="assets/svgs/close.svg" width="24" height="24" alt="close icon" style="filter: invert(67%) sepia(56%) saturate(500%) hue-rotate(183deg);" />
+        <span class="label">close.svg</span>
+      </div>
+      <div class="svg-card">
+        <img src="assets/svgs/star.svg" width="24" height="24" alt="star icon" style="filter: invert(67%) sepia(56%) saturate(500%) hue-rotate(183deg);" />
+        <span class="label">star.svg</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. Placeholder Images -->
+  <div class="section">
+    <h2>3 · Placeholder Images</h2>
+    <div class="placeholder-grid">
+
+      <div class="placeholder">
+        <div class="placeholder-img sm">120 × 80</div>
+        <div class="placeholder-caption">Small (120×80)</div>
+      </div>
+
+      <div class="placeholder">
+        <div class="placeholder-img md">240 × 160</div>
+        <div class="placeholder-caption">Medium (240×160)</div>
+      </div>
+
+      <div class="placeholder">
+        <div class="placeholder-img lg">320 × 200</div>
+        <div class="placeholder-caption">Large (320×200)</div>
+      </div>
+
+      <div class="placeholder" style="border:none;">
+        <div class="placeholder-img avatar-wrap">64×64</div>
+        <div class="placeholder-caption" style="text-align:center;">Avatar</div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
