@@ -2,6 +2,23 @@
 
 A CSS project for codicon icon styling.
 
+## Usage
+
+### Pure CSS icons
+
+```html
+<span class="icon icon-home"></span>
+```
+
+### Imported SVG icons
+
+SVG assets in `/assets/svgs` can be used through CSS classes:
+
+```html
+<span class="icon icon-svg icon-svg-home"></span>
+<span class="icon icon-svg icon-svg-search"></span>
+```
+
 ## Getting Started
 
 ### Clone the repository
