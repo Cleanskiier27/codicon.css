@@ -1,0 +1,4 @@
+[Afterburner]
+name=Afterburner Extension
+description=This file is used as a launch target placeholder for the Afterburner workspace.
+path=${workspaceFolder}\\.vscode\\afterburner.inf
